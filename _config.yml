@@ -19,9 +19,9 @@ show_sidebar: false        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home Change"}
   - {file: "README.md",  title: "CV"}
-  - {file: "README.md",  title: "Research"}
-  - {file: "index.html", title: "Teaching"}
-  - {file: "index.html", title: "Publication"}
+  - {title: "Research"}
+  - {title: "Teaching"}
+  - {title: "Publication"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mnooranidoost@fsu.edu"}
